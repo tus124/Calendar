@@ -1,4 +1,4 @@
 # VirdeeCodeLibrary
 
-- PHP > Calendar in php
-- JavaScript > js reusable functions
+- Calendar.php : Display Gregorian calendar in php.
+- VirJsLib.js : Collection of reusable functions in javascript.

@@ -1,3 +1,4 @@
+var domQuery = function() { 
 	function removeSlashesorDashes(string, returnNoOfAttributes) {
 		var result = "";
 		var i = string.indexOf("/", 0);
@@ -25,7 +26,6 @@
 		}
 		return result;
 	}
-	
 	
 	function capitalize(string, a) {
         var tempstr = string.toLowerCase();
@@ -78,7 +78,6 @@
             "Body"     : JSON.parse(email.Body)
         };
 
-
 	    var xhr = createCORSRequest('POST', email.Url);
 		xhr.onreadystatechange = function () {
 			if (xhr.readyState == 4 && xhr.status == 200) {
@@ -91,3 +90,4 @@
 		
 		xhr.send( JSON.stringify(res) ); 
     }
+};
