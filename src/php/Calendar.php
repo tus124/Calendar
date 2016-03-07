@@ -135,9 +135,9 @@ function GetPresidentDayDate($date) {
 	$day_of_week = date("D", $first_day);
 
 	switch($day_of_week) { 
- 		case "Sun": $president = 23; break;
- 		case "Mon": $president = 22; break; 
- 		case "Tue": $president = 21; break; 
+ 		case "Sun": $president = 16; break;
+ 		case "Mon": $president = 15; break; 
+ 		case "Tue": $president = 14; break; 
  		case "Wed": $president = 20; break; 
  		case "Thu": $president = 19; break; 
  		case "Fri": $president = 18; break; 
